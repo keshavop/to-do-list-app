@@ -1,7 +1,7 @@
 const express =require('express');
 
 const db =require('./config/mongoose');
-const port =9000;
+const port = process.env.PORT||9000;
 
 const app = express();
 
